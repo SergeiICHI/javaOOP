@@ -1,6 +1,6 @@
 package sem1HomeWork;
 
-class Cat extends Owner {
+class Cat extends Owner{
     private String NameCat;
     private Integer AgeCat;
     public Cat(String nameOwner, String nameCat, Integer age) {
@@ -32,10 +32,7 @@ class Cat extends Owner {
     }
 
 
-    //принт инфо о кошке
-    public void greet(){
-        System.out.println("Мяу! Меня зовут " + NameCat + " Мне "  + AgeCat + " лет " + "Мой хозяин: " + getOwner());
-    }
+   
 
     
     
