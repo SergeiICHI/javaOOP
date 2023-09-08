@@ -1,6 +1,7 @@
 package sem1HomeWork;
 
 class Cat extends Owner{
+    
     private String NameCat;
     private Integer AgeCat;
     public Cat(String nameOwner, String nameCat, Integer age) {
@@ -30,7 +31,6 @@ class Cat extends Owner{
     public void setOwner(String newOwner){
         super.setOwner(newOwner);
     }
-
 
    
 

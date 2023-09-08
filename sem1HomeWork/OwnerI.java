@@ -3,7 +3,7 @@ package sem1HomeWork;
 /**
  * OwnerI
  */
-interface OwnerI {
+public interface OwnerI {
    
     //константы
     String USER_NAME = "Sergei";

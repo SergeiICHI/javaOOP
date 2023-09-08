@@ -22,7 +22,7 @@ class Owner implements OwnerI{
         System.out.println("Boom");
     }
     void soundOwner(String x){
-        System.out.println(x + "а это перегрузка"); 
+        System.out.println(x + "а это перегрузка\n"); 
     }
 
 
